@@ -1,7 +1,7 @@
 Permabots-Demo
 ==============================
 
-.. image:: https://github.com/jlmadurga/permabots/raw/master/docs/images/demo.gif
+.. image:: https://github.com/jlmadurga/permabots/raw/master/docs/images/logos/permabots.png
     :target: http://www.permabots.com
 
 Just a demo for Permabots.
@@ -11,6 +11,10 @@ Permabots is a Django App to build chat bots and connect then to your app APIs.
 Repository: https://github.com/jlmadurga/permabots/
 
 Official implementation: http://www.permabots.com
+
+
+.. image:: https://github.com/jlmadurga/permabots/raw/master/docs/images/demo.gif
+    :target: http://www.permabots.com
 
 
 Deploy with Heroku
@@ -33,3 +37,6 @@ Grab token to use it with the API or manage all from admin.
 		 <your_domain>/docs/
 
 Permabots uses Django Site to generate webhooks. Set site domain through admin before start creating bots.
+
+
+
