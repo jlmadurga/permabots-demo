@@ -179,8 +179,8 @@ CACHES = {
     }
 }
 
-# Permabots manual domain
-MICROBOT_WEBHOOK_DOMAIN = env('MICROBOT_WEBHOOK_DOMAIN', default=None)
+# Permabots manual domain. Otherwise it is set automatically with site
+# MICROBOT_WEBHOOK_DOMAIN = env('MICROBOT_WEBHOOK_DOMAIN', default=None)
 
 # swagger
 SWAGGER_SETTINGS = {
