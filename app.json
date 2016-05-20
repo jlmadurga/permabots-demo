@@ -1,6 +1,6 @@
 {
   "name": "Permabots demo",
-  "description": "Django demo to show how to use Permabots",
+  "description": "Django project to show how to use Permabots",
   "keywords": [
   	"bots",
   	"chats",
@@ -10,9 +10,6 @@
   ],
   "website": "http://www.permabots.com",
   "logo": "https://permabots.s3.amazonaws.com/static/images/logo_mini.png",
-  "env": {
-    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-python",
-  },
   "scripts": {
     "postdeploy": "python manage.py migrate"
   },
@@ -20,5 +17,10 @@
     "heroku-postgresql:hobby-dev",
     "heroku-redis:hobby-dev",
     "cloudamqp:lemur"    
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    }
   ]
 }
