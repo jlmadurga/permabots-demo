@@ -1,0 +1,22 @@
+# Configuration
+django-environ==0.4.0
+whitenoise==3.0
+
+# DB
+psycopg2==2.6.1
+
+# Redis for caching
+django-redis==4.3.0
+redis>=2.10.0
+
+# swagger
+django-rest-swagger==0.3.5
+
+# WSGI Handler
+# ------------------------------------------------
+gevent==1.0.2
+gunicorn==19.4.5
+
+
+permabots==2.0.1
+
